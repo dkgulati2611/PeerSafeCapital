@@ -1,0 +1,10 @@
+.fit{
+    width: 10em;
+
+}
+
+.left{
+    all: unset;
+    position: relative;
+    float:left;
+}

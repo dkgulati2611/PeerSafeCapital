@@ -1,0 +1,35 @@
+.vcon{
+  top: 40vh;
+  bottom: 0;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.img_size {
+  width: 1.5em;
+  height: auto;
+  background-color: inherit;
+  margin: 0.25em;
+}
+
+.h_break{
+  color: white;
+}
+
+.center{
+    text-align: center;
+    font-weight: 100;
+    padding-top:0.7em;
+}
+.signup {
+  text-decoration: none;
+  color: #827397;
+  font-size: 1.2em;
+  padding: 1em;
+}
+.signup:hover,:focus,:active {
+  text-decoration: none;
+  color: #E9D5DA;
+
+}
+

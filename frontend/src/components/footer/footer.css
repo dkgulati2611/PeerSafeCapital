@@ -1,0 +1,14 @@
+.logo_big{
+    width: 3em;
+    height: auto;
+}
+.logo_medium{
+    width: 1.5em;
+    height: auto;
+}
+.logoContainer {
+    font-size: 10em;
+}
+.center_align {
+    text-align: center;
+}

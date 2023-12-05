@@ -1,0 +1,26 @@
+.button_bg {
+    all: unset;
+    color: #E9D5DA;
+    background-color: #827397;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #E9D5DA;
+}
+.button_bg:hover {
+    animation: btn_hover 0.5s;
+    background-color: #E9D5DA;
+    color: #827397;
+    border-color: #827397;
+}
+
+@keyframes btn_hover {
+    from{
+        background-color: #827397;
+        color: #E9D5DA;
+    }
+    to{
+        background-color: #E9D5DA;
+        color: #827397;
+        border-color: #827397;
+    }
+}
