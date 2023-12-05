@@ -15,6 +15,12 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 app.use(bodyParser.json());
 app.set("view engine", "ejs");
+//static files
+app.use(express.static(path.join(__dirname, "./frontend/build")));
+
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
+});
 
 // accept all requests
 app.all("*", async (req, res, func) => {
